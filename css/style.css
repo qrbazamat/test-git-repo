@@ -19,6 +19,7 @@
 .crud-btn {
 	border: none;
 	padding: 8px 10px;
+	margin: 0 5px;
 	background-color: #a1a1a1;
 	color: #ffffff;
 	border-radius: 10px;
@@ -40,9 +41,14 @@
 	width: 100%;
 }
 
-.crud-table tr * {
+.crud-table tr > * {
 	padding: 4px 8px;
 	font-weight: 500;
+	border: 4px solid gray;
+}
+
+.crud-table tr > .action {
+	text-align: center;
 }
 
 .crud-btn.edit {
