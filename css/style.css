@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 26px;
+}
+
+.container {
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+}
+
+.main-title {
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.crud-btn {
+	border: none;
+	padding: 8px 10px;
+	background-color: #a1a1a1;
+	color: #ffffff;
+	border-radius: 10px;
+	transition: all .4s;
+	cursor: pointer;
+}
+
+.crud-btn:hover {
+	opacity: .7;
+}
+
+.crud-btn.add-new {
+	margin: 30px 0;
+	background-color: #3172AD;
+}
+
+.crud-table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.crud-table tr * {
+	padding: 4px 8px;
+	font-weight: 500;
+}
+
+.crud-btn.edit {
+	background-color: #4CB358;
+}
+
+.crud-btn.delete {
+	background-color: #D64049;
+}
